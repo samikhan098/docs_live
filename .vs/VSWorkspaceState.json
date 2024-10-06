@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\(auth)",
+    "\\app\\(auth)\\sign-up",
+    "\\app\\(auth)\\sign-up\\[[...sign-up]]",
+    "\\app\\(root)",
+    "\\app\\(root)\\documents",
+    "\\app\\(root)\\documents\\[id]",
+    "\\lib"
+  ],
+  "SelectedNode": "\\app\\(auth)\\sign-up\\[[...sign-up]]\\page.tsx",
+  "PreviewInSolutionExplorer": false
+}
