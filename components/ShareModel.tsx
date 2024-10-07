@@ -86,7 +86,7 @@ const ShareModel = ({ roomId, collaborators, creatorId, currentUserType }: Share
             />
             <UserTypeSelector 
               userType={userType}
-              userType={setUserType}
+              setUserType={setUserType} // Fixed here
             />
           </div>
           <Button type="submit" onClick={shareDocumentHandler} className="gradient-blue flex h-full gap-1 px-5" disabled={loading}>
@@ -127,6 +127,3 @@ const ShareModel = ({ roomId, collaborators, creatorId, currentUserType }: Share
 };
 
 export default ShareModel;
-
-
-  
